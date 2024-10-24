@@ -12,4 +12,9 @@
         {
             $this->view('pages/test');
         }
+
+        public function landing_page()
+        {
+            $this->view('pages/landing_page');
+        }
     }
