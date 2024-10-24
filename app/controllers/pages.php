@@ -12,4 +12,8 @@
         {
             $this->view('pages/test');
         }
+        public function portfolio()
+        {
+            $this->view('pages/portfolio');
+        }
     }
